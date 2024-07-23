@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        int l = s.nextInt();
+        int b = s.nextInt();
+        int r = s.nextInt();
+        int b1 = s.nextInt();
+         int a1 = s.nextInt();
+        int b2 = s.nextInt();
+       
+        System.out.println("Perimeter of Square:"+(4*a));
+        System.out.println("Perimeter of Rectangle:"+2*(l+b));
+        double c = 2*Math.PI*r;
+        System.out.println("Perimeter of Circle:"+Math.floor(c*100.0)/100.0);
+        System.out.println("Perimeter of Triangle:"+(b1+a1+b2));
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
